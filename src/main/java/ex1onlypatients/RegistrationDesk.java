@@ -14,9 +14,11 @@ public class RegistrationDesk {
     }
 
 
+    //po dodaniu pacjenta "updatujemy" nasz plik "bazodanowy"
     public void addPatient(Patient patient){
 
         patientList.add(patient);
+        saveToFile();
     }
 
     //metoda zwracajaca pacjenta o danym peselu
