@@ -73,4 +73,7 @@ public class Dziekanat {
         return newStudent;
     }
 
+    public List<Student> getAllStudents() {
+        return studentList;
+    }
 }
